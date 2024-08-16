@@ -7,4 +7,4 @@
 * 주소 : 대전광역시 서구 만년로 69 6층 마리드엘웨딩
 
 ### Wedding Invitation
-![Main](./img/gallery/1.jpg)
+![Main](./img/gallery/10.jpg)

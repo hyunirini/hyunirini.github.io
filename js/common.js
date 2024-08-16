@@ -8,7 +8,7 @@ window.basic = {
         "account": "토스 1000-0048-8664",
         "parents": {
             "father": {
-                "name": "장경미",
+                "name": "정광진",
                 "phone": "01031526656",
                 "bank": "하나",
                 "account": "하나 "
@@ -16,8 +16,8 @@ window.basic = {
             "mother": {
                 "name": "장경미",
                 "phone": "01031526656",
-                "bank": "농협",
-                "account": "농협 "
+                "bank": "국민",
+                "account": "국민 570225-93-121456"
             }
         }
     },
@@ -67,7 +67,7 @@ window.basic = {
     },
     "info": {
         "description":"2024.11.23.(토) 오후 14:00 마리드엘웨딩 마리드홀",
-        "greeting": "배터리를 연구하다 사랑의 배터리를 만들었습니다. 귀한 발걸음하시어 축하해주세요.",
+        "greeting": "배터리를 연구하다 사랑의 배터리를 만들었습니다.<br>귀한 발걸음하시어 축하해주세요.",
         "wedding_date": "2024.11.23 토요일 오후 14:00",
         "wedding_location": "대전 마리드엘웨딩 마리드홀",
         "wedding_address": "대전광역시 서구 만년로 69 ( 만년동 337 )<br>마리드엘웨딩 6층"
@@ -154,9 +154,6 @@ $(document).ready(function (){
         items: [
             {
                 src: './img/map/map1.jpg'
-            },
-            {
-                src: './img/map/map2.jpg'
             }
         ],
         gallery: {
@@ -192,7 +189,7 @@ function setText(){
     $('#txt-title').html(window.basic.title);
     $('.txt-groom').html(window.basic.groom.name);
     $('.txt-groom-first').html(window.basic.groom.first_name);
-    $('.txt-groom-father').html(window.basic.groom.parents.father.name);
+    $('.txt-groom-father').html('<i class="fa fa-heart mr-5"></i>'+window.basic.groom.parents.father.name);
     $('.txt-groom-mother').html(window.basic.groom.parents.mother.name);
     $('.txt-bride').html(window.basic.bride.name);
     $('.txt-bride-first').html(window.basic.bride.first_name);
