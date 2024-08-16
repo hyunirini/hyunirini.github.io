@@ -1,84 +1,84 @@
 window.basic = {
-    "title": "박석범 ♥ 장세희 결혼합니다!",
+    "title": "정대현 ♥ 서예린 결혼합니다!",
     "groom": {
-        "name": "박석범",
-        "first_name": "석범",
-        "phone": "01085519254",
-        "bank": "하나",
-        "account": "하나 741-910359-06207",
+        "name": "정대현",
+        "first_name": "대현",
+        "phone": "01033176656",
+        "bank": "토스",
+        "account": "토스 1000-0048-8664",
         "parents": {
             "father": {
-                "name": "박영조",
-                "phone": "01045849254",
+                "name": "장경미",
+                "phone": "01031526656",
                 "bank": "하나",
-                "account": "하나 699-810001-34607"
+                "account": "하나 "
             },
             "mother": {
-                "name": "오계자",
-                "phone": "01040199254",
+                "name": "장경미",
+                "phone": "01031526656",
                 "bank": "농협",
-                "account": "농협 356-4019-9254-53"
+                "account": "농협 "
             }
         }
     },
     "bride": {
-        "name": "장세희",
-        "first_name": "세희",
-        "phone": "01073042379",
+        "name": "서예린",
+        "first_name": "예린",
+        "phone": "01071732761",
         "bank": "신한",
-        "account": "신한 110-441-100106",
+        "account": "신한 110-355-850227",
         "parents": {
             "father": {
-                "name": "장우진",
+                "name": "서기제",
                 "phone": "01071857835",
-                "bank": "국민",
-                "account": "국민 602801-01-041436"
+                "bank": "농협",
+                "account": "농협 352-7379-7111-13"
             },
             "mother": {
-                "name": "최연희",
+                "name": "허수경",
                 "phone": "01073882379",
                 "bank": "농협",
-                "account": "농협 352-1255-6086-53"
+                "account": "농협 352-1377-1003-93"
             }
         }
     },
     "date": {
         "year": "2024",
-        "month": "09",
-        "day": "28",
-        "hour": "12",
-        "minute": "40"
+        "month": "11",
+        "day": "23",
+        "hour": "14",
+        "minute": "00"
     },
     "honeymoon":{
-        "location": "하와이",
+        "location": "북유럽",
         "days": 14
     },
     "location": {
-        "name": "루이비스 대전",
-        "address": "대전광역시 유성구 테크노중앙로 161 호텔 스카이파크 1층",
+        "name": "마리드엘웨딩 대전",
+        "address": "대전광역시 서구 만년로 69 6층 마리드엘웨딩",
         "x": "36.4246584",
         "y": "127.3979372"
     },
-    "link": "https://saybeom.github.io/",
+    "link": "https://hyunirini.github.io/",
     "kakao": {
-        "description": "2024.09.28. 토요일 오후 12:40\n대전 루이비스 그레이스홀",
+        "description": "2024.11.23. 토요일 오후 14:00\n대전 마리드엘웨딩 마리드홀",
         "button": "모바일 청첩장 보기",
-        "img": "https://lh3.googleusercontent.com/fife/ALs6j_HHzozftbO5zqVlisebKyRhr3eHrGiBaYfrjRGSn2GAlS6AhsEEjotGjEUMMaJsfeXHtGajbATaK3ToemfZ5uDeJ1553Sq90MGznuXZGu-UPD8CRgat7Qot9mDExAYuURPJib4jtG3HJAf-wii7VOtprr3AQdyP2XS-SIPzJoVl19UW3aedDqE9Z4-urwW4dgjQ-aCtEQ_-Ypydn5lsZVyGtfge3esuCYc6blbZnadKLtZGVDRoIW2cNeYKuOrnLIdJwSzVxvLYXatr2wGRE6vtdCpCp-y2X-U0cW_a8-CuHqweKmUVSP5QAkt0kZckepFhXPB5Q9GSKmWjxoZaMMbbYUb4KWg5x2BRD252zn1524akLWAvSmqbdCJ6tG5x_djcT0UwFPlz2mFv5X_XL864HjXkKq5N0tuLneC9_D5HFSDZKGRw6f4T142JnYEJr6aa_MlPB6qTFGPj65Q-8bBG0AgFQVntxAn9-THDgGU0WV6vOVpLn9WOvrmZNPXYBH_2Hmn1dVrwWSYydJpaYVv4D9-gcf3GjvvQDUAXGuDYaUs5xWUnve8yOtMRtyMgHlbiKqekewIpZSuQZo2WR-xVTfDIg8VE8-4ydh2z5evKbYyMRUpVeVu4vzv5L-bou14eH9HDMAN0kAo55Myg1eVsTkeNAaKOi_MTnC-8JbTYyd5OaHaxCwgSjDbWcUBmoBX7d3QdGonCJqUP8Gsl73ADz_FNyYeLKNQTx35dfBqf7CBd5I7DR8t-0P0CoCrb4sUKncPWbxOAi7ZvMw8D6B4nEe5XkgaraJ0LUQ_NTBt00ae8mXUd7adsv5voNRxrpfrCJjBgCMlZEoxwdP0K2iSrCx3xyylq-Myl7cj9L4CpV2ltM0kCOEoI8uRr59VjcK4O1BkNxQERCDhABS0Q2AeRLXJ8L3EP3ApjNnB4PbZNjvhBN0XeXScvpJvOdlyQvlOha97RQQhlsY3_t6jp1Wn9jK7aEYgUlsv-smAe-2WWU6DMJ9vCHzlKawv8WRKjVpectxm0YKttW-wZjlZpcJngGENAMiWAhC8kwE6NLW53WmXoFgZHXzpwVO0nUHKvDwT5t-0VfXdHuSSOt9Q7oGEylMrOJG3x-U2_nIYsntPpNosVkRCbDTyyXjeBWeoVzBMk18r6PoU22fc6zQRlXNeBHgxka1Nd2o25Ge3zj-2q_KgJWiZ9kF2V_Cz-h0hI1fC2P38yc9vI5r6BSbe0ZcUiCWWF53fWH93fXi2W1NXrZaLun2WO59IyWPAlHkMZPS86-xr9VxUJIsKCO7URanfQtqK6Qj4WwfeWLUEE2PTYl4rwuRvV9Tiu0qmUaV5q1CAfYQbKVLncdSGkca1mo3M-RZEyAhvbM9i50KyopgojNaSE3oxBByJz-IbmLxjr8Un4XQDLyuFuRWizkJ8UoLBepGZNiRx-yAKNL2aQIdJA0ojzq_0zSoPDc-Vg5y7MmXrhArVxPsLUoymo5XxJwtkqu7CO_CWJQsdzBxqcsFWogC7iD5ZHOeSMOgoqJQKaYeSwqiFZSVQnAV59jVhxkx-lpXoE1nFsETROBI_PmoUgMfqSzfLzTKh_3KLWsap_a1s_xYng-RmSLzRqm84zKN5iHkXSOiRLuL7Tp9qlJRRfdekZ85Z0=w3120-h2656"
+        "img": "https://drive.google.com/u/0/drive-viewer/AKGpihZdmKfjsNR528wQ9X8p2-GLf0X8eEHxzUxRD9qTq71SOtRH60aRb8xEQ_wNq7j4TLRjyhJpL4p2FCvI_rHzjtBZr890pi7z2Ts=s1600-rw-v1"
     },
     "info": {
-        "description":"2024.09.28.(토) 오후 12:40 루이비스 그레이스홀",
+        "description":"2024.11.23.(토) 오후 14:00 마리드엘웨딩 마리드홀",
         "greeting": "물 속에서 인연을 맺고, 마음 깊이 사랑을 키워왔습니다.\n이제는 인생의 바다로 함께 항해하고자 합니다.\n사랑과 행복의 물결을 타고, 영원한 사랑을 약속합니다.\n저희 두 사람의 새로운 시작을\n지켜봐 주시고 축복해주시면 감사하겠습니다.",
-        "wedding_date": "2024.09.28 토요일 오후 12:40",
-        "wedding_location": "대전 루이비스컨벤션 그레이스홀",
-        "wedding_address": "대전 유성구 테크노중앙로 161 ( 용산동 579 )<br>스카이파크호텔 1층"
+        "wedding_date": "2024.11.23 토요일 오후 14:00",
+        "wedding_location": "대전 마리드엘웨딩 마리드홀",
+        "wedding_address": "대전광역시 서구 만년로 69 ( 만년동 337 )<br>마리드엘웨딩 6층"
     }
 }
 let scrollTop;
-const holidays = [16,17,18];
-const numOfImages = 46;
+const holidays = [];
+const numOfImages = 11;
 const basicNumbers = 9;
-const excludeNumbers = [22,31,46];
-const excludeNumbers2 = [2,];
+const excludeNumbers = [];
+const excludeNumbers2 = [];
 
 $(document).ready(function (){
 
@@ -469,7 +469,7 @@ function copyLink(){
 
     let url = window.document.location.href;
     copyToClipboard(url);
-    alert('석범♥세희 청첩장 주소가 복사되었습니다.');
+    alert('대현♥예린 청첩장 주소가 복사되었습니다.');
 }
 
 function copyAccount(val){
