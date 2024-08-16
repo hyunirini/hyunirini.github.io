@@ -10,8 +10,8 @@ window.basic = {
             "father": {
                 "name": "정광진",
                 "phone": "01031526656",
-                "bank": "하나",
-                "account": "하나 "
+                "bank": "",
+                "account": ""
             },
             "mother": {
                 "name": "장경미",
@@ -50,14 +50,14 @@ window.basic = {
         "minute": "00"
     },
     "honeymoon":{
-        "location": "북유럽",
+        "location": "핀란드&노르웨이",
         "days": 14
     },
     "location": {
         "name": "마리드엘웨딩 대전",
         "address": "대전광역시 서구 만년로 69 6층 마리드엘웨딩",
-        "x": "36.4246584",
-        "y": "127.3979372"
+        "x": "36.3677359",
+        "y": "127.3806440"
     },
     "link": "https://hyunirini.github.io/",
     "kakao": {
@@ -67,7 +67,7 @@ window.basic = {
     },
     "info": {
         "description":"2024.11.23.(토) 오후 14:00 마리드엘웨딩 마리드홀",
-        "greeting": "배터리를 연구하다 사랑의 배터리를 만들었습니다.<br>귀한 발걸음하시어 축하해주세요.",
+        "greeting": "서로의 에너지가 되어 줄 평생의 반쪽을 찾았습니다.<br>같은 꿈을 꾸며, 함께 걸어갈 길을 열어가고자 합니다.<br><br>소중한 여러분을 모시고<br>저희 두 사람의 새로운 시작을 함께 하고자 하오니,<br>많이 와주시어 축복해주시면 감사하겠습니다.<br>",
         "wedding_date": "2024.11.23 토요일 오후 14:00",
         "wedding_location": "대전 마리드엘웨딩 마리드홀",
         "wedding_address": "대전광역시 서구 만년로 69 ( 만년동 337 )<br>마리드엘웨딩 6층"
@@ -189,7 +189,7 @@ function setText(){
     $('#txt-title').html(window.basic.title);
     $('.txt-groom').html(window.basic.groom.name);
     $('.txt-groom-first').html(window.basic.groom.first_name);
-    $('.txt-groom-father').html('<i class="fa fa-heart mr-5"></i>'+window.basic.groom.parents.father.name);
+    $('.txt-groom-father').html(window.basic.groom.parents.father.name);
     $('.txt-groom-mother').html(window.basic.groom.parents.mother.name);
     $('.txt-bride').html(window.basic.bride.name);
     $('.txt-bride-first').html(window.basic.bride.first_name);
@@ -507,7 +507,13 @@ function copyAccount(val){
         default : break;
     }
     copyToClipboard(account);
-    alert(name+'님의 '+bank+'은행 계좌번호가 복사되었습니다.');
+    let txt = name+'님의 '+bank;
+    if(bank=='토스'){
+        txt+='뱅크 계좌번호가 복사되었습니다.';
+    }else{
+        txt+='은행 계좌번호가 복사되었습니다.';
+    }
+    alert(txt);
 }
 
 function copyToClipboard(val) {

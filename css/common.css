@@ -56,7 +56,7 @@ a, a:hover, a:active, a:focus {
 .name-block{
     display: flex;
     flex-direction: column;
-    min-width: 65px;
+    width: 65px;
 }
 .date-container{
     background-color: #f6f5f5;
@@ -411,6 +411,9 @@ a, a:hover, a:active, a:focus {
     height: 12px;
 }
 .flower{
-    margin-right: .2rem;
-    width: 16px;
+    width: 20px;
+}
+.flower-div{
+    width: 80px;
+    display: contents;
 }
