@@ -113,10 +113,11 @@ a, a:hover, a:active, a:focus {
     background-size: cover;
     background-position: top;
     height: 700px;
+    color: #fff;
 }
 
 .sub-img{
-    background-image: url(../img/gallery/1.jpg);
+    background-image: url(../img/gallery/4.jpg);
     background-size: cover;
     background-position: top;
     background-position-y: -30px;
@@ -125,7 +126,7 @@ a, a:hover, a:active, a:focus {
     max-width: 390px;
 }
 .footer-img{
-    background-image: url(../img/gallery/1.jpg);
+    background-image: url(../img/gallery/2.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
