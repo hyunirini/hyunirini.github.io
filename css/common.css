@@ -78,7 +78,7 @@ a, a:hover, a:active, a:focus {
     max-width: 350px;
 }
 .thank-container{
-    color: #544f4f;
+    color: #ffffff;
 }
 .mw-50{
     min-width: 50px;
@@ -109,14 +109,14 @@ a, a:hover, a:active, a:focus {
     color: #797979;
 }
 .main-img{
-    background-image: url(../img/gallery/1.jpg);
+    background-image: url(../img/gallery/18.jpg);
     background-size: cover;
-    background-position: top;
-    height: 700px;
+    background-position: bottom;
+    height: 650px;
 }
 
 .sub-img{
-    background-image: url(../img/gallery/4.jpg);
+    background-image: url(../img/gallery/28.jpg);
     background-size: cover;
     background-position: top;
     /*background-position-y: -30px;*/
@@ -125,7 +125,7 @@ a, a:hover, a:active, a:focus {
     max-width: 390px;
 }
 .footer-img{
-    background-image: url(../img/gallery/11.jpg);
+    background-image: url(../img/gallery/31.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;

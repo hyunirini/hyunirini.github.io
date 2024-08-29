@@ -63,11 +63,11 @@ window.basic = {
     "kakao": {
         "description": "2024.11.23. 토요일 오후 14:00\n대전 마리드엘웨딩 마리드홀",
         "button": "모바일 청첩장 보기",
-        "img": "https://drive.google.com/u/0/drive-viewer/AKGpihZdmKfjsNR528wQ9X8p2-GLf0X8eEHxzUxRD9qTq71SOtRH60aRb8xEQ_wNq7j4TLRjyhJpL4p2FCvI_rHzjtBZr890pi7z2Ts=s1600-rw-v1"
+        "img": "https://drive.google.com/u/0/drive-viewer/AKGpihZ9xaFr7iSUbV-hmmcBTSafu6Ap5drMRowtphnkZV8vRRaAll361pFYf2qp0zZJp-JwBpWrM6T7HlcDTo5bYmJPEZPpae3WrxE=s1600-rw-v1"
     },
     "info": {
         "description":"2024.11.23.(토) 오후 14:00 마리드엘웨딩 마리드홀",
-        "greeting": "서로의 에너지가 되어 줄 평생의 반쪽을 찾았습니다.<br>같은 꿈을 꾸며, 함께 걸어갈 길을 열어가고자 합니다.<br><br>소중한 여러분을 모시고<br>저희 두 사람의 새로운 시작을 함께 하고자 하오니,<br>많이 와주시어 축복해주시면 감사하겠습니다.<br>",
+        "greeting": "평범하지만 특별한 시간 여행을<br>함께할 사람을 만났습니다.<br>여행 중에 방전되지 않도록<br>서로를 충전해 주겠습니다.<br>",
         "wedding_date": "2024.11.23 토요일 오후 14:00",
         "wedding_location": "대전 마리드엘웨딩 마리드홀",
         "wedding_address": "대전광역시 서구 만년로 69 ( 만년동 337 )<br>마리드엘웨딩 6층"
@@ -75,7 +75,7 @@ window.basic = {
 }
 let scrollTop;
 const holidays = [];
-const numOfImages = 11;
+const numOfImages = 39;
 const basicNumbers = 9;
 const excludeNumbers = [];
 const excludeNumbers2 = [];
