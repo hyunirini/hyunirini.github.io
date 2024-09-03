@@ -110,6 +110,7 @@ $(document).ready(function (){
     setGallery('gallery-html2');
 
     lightbox.option({
+        'fixedContentPos': true,
       'resizeDuration': 10,
       'wrapAround': true,
       'alwaysShowNavOnTouchDevices' : true,
