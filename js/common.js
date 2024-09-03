@@ -110,10 +110,12 @@ $(document).ready(function (){
     setGallery('gallery-html2');
 
     lightbox.option({
-        'fixedContentPos': true,
-      'resizeDuration': 10,
-      'wrapAround': true,
-      'alwaysShowNavOnTouchDevices' : true,
+        'disableScrolling': true,
+        'resizeDuration': 0,
+        'fadeDuration': 0,
+        'fadeDuration': 0,
+        'wrapAround': true,
+        'alwaysShowNavOnTouchDevices' : true,
         'albumLabel':'%1 / %2'
     })
 
