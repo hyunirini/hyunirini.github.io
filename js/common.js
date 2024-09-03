@@ -117,7 +117,9 @@ $(document).ready(function (){
         'fadeDuration': 0,
         'wrapAround': true,
         'alwaysShowNavOnTouchDevices' : true,
-        'albumLabel':'%1 / %2'
+        'albumLabel':'%1 / %2',
+        maxHeight: 700,
+        maxWidth: 700
     })
 
     // $('#gallery-html2').html('<div>\n'
