@@ -105,7 +105,23 @@ $(document).ready(function (){
         }
     });
 
-    setGallery('gallery-html');
+    //setGallery('gallery-html');
+
+    setGallery('gallery-html2');
+
+    lightbox.option({
+      'resizeDuration': 10,
+      'wrapAround': true,
+      'alwaysShowNavOnTouchDevices' : true,
+        'albumLabel':'%1 / %2'
+    })
+
+    // $('#gallery-html2').html('<div>\n'
+    //     + '      <a class="grid-item example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>\n'
+    //     + '      <a class="grid-item example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg" data-lightbox="example-set"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg" alt="" /></a>\n'
+    //     + '      <a class="grid-item example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg" data-lightbox="example-set"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg" alt="" /></a>\n'
+    //     + '      <a class="grid-item example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg" data-lightbox="example-set"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg" alt="" /></a>\n'
+    //     + '    </div>');
 
     // let msnry = $('#grid-container').masonry({
     //     itemSelector: '.grid-item',
@@ -118,37 +134,37 @@ $(document).ready(function (){
     //     $('#grid-container').masonry('layout');
     // });
 
-    $('.grid-item').magnificPopup({
-        fixedContentPos: true,
-        delegate: 'img',
-        type:'image',
-        gallery: {
-            enabled: true,
-            tCounter: '%curr% / %total%'
-        },
-        callbacks: {
-            beforeOpen: function () {
-                $('body').css("overflow", "hidden");
-                $('body').css("touch-action", "none");
-            },
-            open: function () {
-                $('body').css("overflow", "hidden");
-                $('body').css("touch-action", "none");
-                $('figure>img').parent().bind('contextmenu', function(e){ return false; });
-            },
-            imageLoadComplete: function () {
-                $('body').css("overflow", "hidden");
-                $('body').css("touch-action", "none");
-            },
-            close: function() {
-                $('body').css("overflow", "");
-                $('body').css("touch-action", "pan-y");
-            },
-            elementParse: function(qw) {
-                qw.src = qw.el.attr('src');
-            }
-        }
-    });
+    // $('.grid-item').magnificPopup({
+    //     fixedContentPos: true,
+    //     delegate: 'img',
+    //     type:'image',
+    //     gallery: {
+    //         enabled: true,
+    //         tCounter: '%curr% / %total%'
+    //     },
+    //     callbacks: {
+    //         beforeOpen: function () {
+    //             $('body').css("overflow", "hidden");
+    //             $('body').css("touch-action", "none");
+    //         },
+    //         open: function () {
+    //             $('body').css("overflow", "hidden");
+    //             $('body').css("touch-action", "none");
+    //             $('figure>img').parent().bind('contextmenu', function(e){ return false; });
+    //         },
+    //         imageLoadComplete: function () {
+    //             $('body').css("overflow", "hidden");
+    //             $('body').css("touch-action", "none");
+    //         },
+    //         close: function() {
+    //             $('body').css("overflow", "");
+    //             $('body').css("touch-action", "pan-y");
+    //         },
+    //         elementParse: function(qw) {
+    //             qw.src = qw.el.attr('src');
+    //         }
+    //     }
+    // });
 
     $('#map-popup').magnificPopup({
         items: [
@@ -393,6 +409,29 @@ function hidePhoto(){
 
     window.scrollTo(0, scrollTop);
 }
+
+// <div>\n'
+//     // + ' <a className="grid-item example-image-link"
+//               href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg"
+//               data-lightbox="example-set"><img className="example-image"
+//                                                src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg"
+//                                                alt=""/></a>\n'
+//     // + ' <a className="grid-item example-image-link"
+//               href="http://lokeshdhakar.com/projects/lightbox2/images/image-4.jpg"
+//               data-lightbox="example-set"><img className="example-image"
+//                                                src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-4.jpg"
+//                                                alt=""/></a>\n'
+//     // + ' <a className="grid-item example-image-link"
+//               href="http://lokeshdhakar.com/projects/lightbox2/images/image-5.jpg"
+//               data-lightbox="example-set"><img className="example-image"
+//                                                src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-5.jpg"
+//                                                alt=""/></a>\n'
+//     // + ' <a className="grid-item example-image-link"
+//               href="http://lokeshdhakar.com/projects/lightbox2/images/image-6.jpg"
+//               data-lightbox="example-set"><img className="example-image"
+//                                                src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-6.jpg"
+//                                                alt=""/></a>\n'
+//     // + ' </div>
 function setGallery(id){
 
     let parentElement = document.getElementById(id);
@@ -413,16 +452,21 @@ function setGallery(id){
         if(excludeNumbers.includes(imageNumber)||excludeNumbers2.includes(imageNumber)){
             return;
         }
-        let divElement = document.createElement('div');
+        let divElement = document.createElement('a');
         cnt++;
         if(cnt <= basicNumbers){
-            divElement.className = 'grid-item';
+            divElement.className = 'grid-item example-image-link';
         }else{
-            divElement.className = 'grid-item hidden-photo visually-hidden';
+            divElement.className = 'grid-item example-image-link hidden-photo visually-hidden';
         }
+
+        divElement.setAttribute('href', './img/gallery/' + imageNumber + '.jpg');
+        divElement.setAttribute('data-lightbox', 'example-set');
+        divElement.setAttribute('data-title', '');
 
         let imgElement = document.createElement('img');
         imgElement.src = './img/gallery/' + imageNumber + '.jpg';
+        imgElement.className = "example-image";
 
         divElement.appendChild(imgElement);
 
