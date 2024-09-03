@@ -73,6 +73,7 @@ window.basic = {
         "wedding_address": "대전광역시 서구 만년로 69 ( 만년동 337 )<br>마리드엘웨딩 6층"
     }
 }
+
 let scrollTop;
 const holidays = [];
 const numOfImages = 39;
