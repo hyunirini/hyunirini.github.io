@@ -112,14 +112,12 @@ $(document).ready(function (){
 
     lightbox.option({
         'disableScrolling': true,
-        'resizeDuration': 0,
-        'fadeDuration': 0,
-        'fadeDuration': 0,
+        'resizeDuration': 1,
+        'fadeDuration': 1,
+        'fadeDuration': 1,
         'wrapAround': true,
         'alwaysShowNavOnTouchDevices' : true,
         'albumLabel':'%1 / %2',
-        maxHeight: 700,
-        maxWidth: 700
     })
 
     // $('#gallery-html2').html('<div>\n'
