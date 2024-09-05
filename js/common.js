@@ -110,6 +110,7 @@ $(document).ready(function (){
 
     setGallery('gallery-html2');
 
+
     lightbox.option({
         'disableScrolling': true,
         'resizeDuration': 1,
@@ -119,6 +120,13 @@ $(document).ready(function (){
         'alwaysShowNavOnTouchDevices' : true,
         'albumLabel':'%1 / %2',
     })
+    //
+    // Lightbox.on('onStart', function(event, result, self) {
+    //     $('body').css('overflow-y', 'hidden');
+    // });
+    // Lightbox.on('onEnd', function(event, result, self) {
+    //     $('body').css('overflow-y', '');
+    // });
 
     // $('#gallery-html2').html('<div>\n'
     //     + '      <a class="grid-item example-image-link" href="http://lokeshdhakar.com/projects/lightbox2/images/image-3.jpg" data-lightbox="example-set"><img class="example-image" src="http://lokeshdhakar.com/projects/lightbox2/images/thumb-3.jpg" alt=""/></a>\n'

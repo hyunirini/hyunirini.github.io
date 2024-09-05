@@ -116,9 +116,9 @@ a, a:hover, a:active, a:focus {
 }
 
 .sub-img{
-    background-image: url(../img/gallery/28.jpg);
+    background-image: url(../img/gallery/3.jpg);
     background-size: cover;
-    background-position: top;
+    background-position: center;
     /*background-position-y: -30px;*/
     height: 360px;
     border-radius: 6px;
