@@ -17,36 +17,7 @@ body {
     background-color: #fbfbfb;
     color: #544f4f;
     touch-action: pan-x pan-y;
-    -webkit-overflow-scrolling: touch;
 }
-
-.mfp-bg{
-    z-index:2000;
-    -webkit-transform: translateZ(0);
-}
-
-.mfp-wrap {
-    z-index: 2001;
-}
-
-.mfp-content {
-    z-index: 2003;
-}
-
-.mfp-preloader {
-    z-index: 2002;
-}
-
-button.mfp-close, button.mfp-arrow {
-    z-index: 2003;
-}
-
-body.mfp-zoom-out-cur {
-    overflow: hidden;
-    touch-action: none;
-    -webkit-overflow-scrolling: auto;
-}
-
 
 .no-drag{
     -ms-user-select: none;
@@ -63,8 +34,8 @@ a, a:hover, a:active, a:focus {
     cursor: pointer;
 }
 .main-info{
-    color: #292d32;
-    margin-top: 225px;
+    color: #ffffff;
+    margin-top: 88px;
 }
 .main-txt{
     color: #544f4f;
@@ -77,10 +48,6 @@ a, a:hover, a:active, a:focus {
     line-height: 2.5rem;
     white-space: pre-line;
 }
-.greeting-container .highlight {
-    font-weight: bolder;
-    font-size: 1rem;
-  }
 .name-container{
     display: flex;
     align-items: baseline;
@@ -112,7 +79,7 @@ a, a:hover, a:active, a:focus {
     max-width: 350px;
 }
 .thank-container{
-    color: #544f4f;
+    color: #ffffff;
 }
 .mw-50{
     min-width: 50px;
@@ -143,23 +110,23 @@ a, a:hover, a:active, a:focus {
     color: #797979;
 }
 .main-img{
-    background-image: url(../img/gallery/0.jpg);
+    background-image: url(../img/gallery/18.jpg);
     background-size: cover;
-    background-position: top;
-    height: 700px;
+    background-position: bottom;
+    height: 650px;
 }
 
 .sub-img{
-    background-image: url(../img/gallery/12.jpg);
+    background-image: url(../img/gallery/3.jpg);
     background-size: cover;
-    background-position: top;
-    background-position-y: 0px;
+    background-position: center;
+    /*background-position-y: -30px;*/
     height: 360px;
     border-radius: 6px;
     max-width: 390px;
 }
 .footer-img{
-    background-image: url(../img/gallery/21.jpg);
+    background-image: url(../img/gallery/31.jpg);
     background-size: cover;
     background-position: center;
     height: 450px;
@@ -443,30 +410,6 @@ a, a:hover, a:active, a:focus {
 .kakaopay .kakao-btn{
     width: 38px;
     height: 12px;
-}
-
-
-.mfp-with-zoom .mfp-container,
-.mfp-with-zoom.mfp-bg {
-    opacity: 0;
-    -webkit-backface-visibility: hidden;
-    /* ideally, transition speed should match zoom duration */
-    -webkit-transition: all 0.3s ease-out;
-    -moz-transition: all 0.3s ease-out;
-    -o-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
-}
-
-.mfp-with-zoom.mfp-ready .mfp-container {
-    opacity: 1;
-}
-.mfp-with-zoom.mfp-ready.mfp-bg {
-    opacity: 0.8;
-}
-
-.mfp-with-zoom.mfp-removing .mfp-container,
-.mfp-with-zoom.mfp-removing.mfp-bg {
-    opacity: 0;
 }
 .flower{
     width: 20px;
