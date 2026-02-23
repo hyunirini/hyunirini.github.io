@@ -63,7 +63,7 @@ window.basic = {
     "kakao": {
         "description": "2024.11.23. 토요일 오후 14:00\n대전 마리드엘웨딩 마리드홀",
         "button": "모바일 청첩장 보기",
-        "img": "https://drive.google.com/u/0/drive-viewer/AKGpihYU5x9YehsCsX3X_dUSxHscYKaLghoOmuS0JLMks8uLzvvg0YLvCBlc6sirYkS2UsKehGeTFDkHjU4QKpYFNXmKQnpKNOmNjEE=s1600-rw-v1"
+        "img": "https://github.com/hyunirini/hyunirini.github.io/blob/main/img/gallery/3.jpg?raw=true"
     },
     "info": {
         "description":"2024.11.23.(토) 오후 14:00 마리드엘웨딩 마리드홀",
