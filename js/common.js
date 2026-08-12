@@ -3,42 +3,42 @@ window.basic = {
     "groom": {
         "name": "정대현",
         "first_name": "대현",
-        "phone": "01033176656",
+        "phone": "01000000000",
         "bank": "토스",
-        "account": "토스 1000-0048-8664",
+        "account": "토스 000",
         "parents": {
             "father": {
                 "name": "정광진",
-                "phone": "01031526656",
+                "phone": "01000000000",
                 "bank": "",
                 "account": ""
             },
             "mother": {
                 "name": "장경미",
-                "phone": "01031526656",
+                "phone": "01000000000",
                 "bank": "국민",
-                "account": "국민 570225-93-121456"
+                "account": "국민 000"
             }
         }
     },
     "bride": {
         "name": "서예린",
         "first_name": "예린",
-        "phone": "01071732761",
+        "phone": "01000000000",
         "bank": "신한",
-        "account": "신한 110-355-850227",
+        "account": "신한 000",
         "parents": {
             "father": {
                 "name": "서기제",
-                "phone": "01073797111",
+                "phone": "01000000000",
                 "bank": "농협",
-                "account": "농협 352-7379-7111-13"
+                "account": "농협 000"
             },
             "mother": {
                 "name": "허수경",
-                "phone": "01053785234",
+                "phone": "01000000000",
                 "bank": "농협",
-                "account": "농협 352-1377-1003-93"
+                "account": "농협 000"
             }
         }
     },
